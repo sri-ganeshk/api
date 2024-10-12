@@ -1,0 +1,2 @@
+[console_scripts]
+kappa = kappa.scripts.cli:cli

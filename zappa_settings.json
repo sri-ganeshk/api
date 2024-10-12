@@ -1,0 +1,102 @@
+{
+    "dev": {
+        "app_function": "app.app",
+        "aws_region": "ap-southeast-2",
+        "exclude": [
+            "boto3",
+            "dateutil",
+            "botocore",
+            "s3transfer",
+            "concurrent"
+        ],
+        "profile_name": "default",
+        "project_name": "api",
+        "runtime": "python3.12",
+        "s3_bucket": "zappa-ppgjh1jcl",
+        "role_arn": "arn:aws:iam::010928220205:role/api-dev-ZappaLambdaExecutionRole"
+    },
+    "dev_ap_east_1": {
+        "aws_region": "ap-east-1",
+        "extends": "dev"
+    },
+    "dev_ap_northeast_1": {
+        "aws_region": "ap-northeast-1",
+        "extends": "dev"
+    },
+    "dev_ap_northeast_2": {
+        "aws_region": "ap-northeast-2",
+        "extends": "dev"
+    },
+    "dev_ap_northeast_3": {
+        "aws_region": "ap-northeast-3",
+        "extends": "dev"
+    },
+    "dev_ap_south_1": {
+        "aws_region": "ap-south-1",
+        "extends": "dev"
+    },
+    "dev_ap_southeast_1": {
+        "aws_region": "ap-southeast-1",
+        "extends": "dev"
+    },
+    "dev_ca_central_1": {
+        "aws_region": "ca-central-1",
+        "extends": "dev"
+    },
+    "dev_cn_north_1": {
+        "aws_region": "cn-north-1",
+        "extends": "dev"
+    },
+    "dev_cn_northwest_1": {
+        "aws_region": "cn-northwest-1",
+        "extends": "dev"
+    },
+    "dev_eu_central_1": {
+        "aws_region": "eu-central-1",
+        "extends": "dev"
+    },
+    "dev_eu_north_1": {
+        "aws_region": "eu-north-1",
+        "extends": "dev"
+    },
+    "dev_eu_west_1": {
+        "aws_region": "eu-west-1",
+        "extends": "dev"
+    },
+    "dev_eu_west_2": {
+        "aws_region": "eu-west-2",
+        "extends": "dev"
+    },
+    "dev_eu_west_3": {
+        "aws_region": "eu-west-3",
+        "extends": "dev"
+    },
+    "dev_sa_east_1": {
+        "aws_region": "sa-east-1",
+        "extends": "dev"
+    },
+    "dev_us_east_1": {
+        "aws_region": "us-east-1",
+        "extends": "dev"
+    },
+    "dev_us_east_2": {
+        "aws_region": "us-east-2",
+        "extends": "dev"
+    },
+    "dev_us_gov_east_1": {
+        "aws_region": "us-gov-east-1",
+        "extends": "dev"
+    },
+    "dev_us_gov_west_1": {
+        "aws_region": "us-gov-west-1",
+        "extends": "dev"
+    },
+    "dev_us_west_1": {
+        "aws_region": "us-west-1",
+        "extends": "dev"
+    },
+    "dev_us_west_2": {
+        "aws_region": "us-west-2",
+        "extends": "dev"
+    }
+}
